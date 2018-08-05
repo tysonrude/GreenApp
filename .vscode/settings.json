@@ -1,0 +1,11 @@
+// To switch between localhost or 127.0.0.1 or anything else. Default is 127.0.0.1
+"liveServer.settings.host": "localhost",
+
+// Set Custom Port Number of Live Server. Set 0 if you want random port.
+"liveServer.settings.port": 3000,
+
+ // Example: /subfolder1/subfolder2
+ "liveServer.settings.root": "/greenapp",
+
+ // Use local IP as host
+ "liveServer.settings.useLocalIp": true,

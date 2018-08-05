@@ -1,0 +1,40 @@
+1533333412a:1:{s:10:"claims.htm";a:9:{s:8:"fileName";s:10:"claims.htm";s:7:"content";s:709:"title = "Claims"
+url = "/claims"
+layout = "default"
+is_hidden = 0
+==
+<div class="d-flex align-items-center my-3">
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-3">
+             
+            </div>
+            <div class="claims col-9">
+                <ul>
+                    <li>{% partial 'components/claims-card' %}</li>
+                    <li>{% partial 'components/claims-card' %}</li>
+                    <li>{% partial 'components/claims-card' %}</li>
+                    <li>{% partial 'components/claims-card' %}</li>
+                </ul>
+                 
+            </div>
+        </div>
+    </div>
+</div>";s:5:"mtime";i:1533332771;s:6:"markup";s:635:"<div class="d-flex align-items-center my-3">
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-3">
+             
+            </div>
+            <div class="claims col-9">
+                <ul>
+                    <li>{% partial 'components/claims-card' %}</li>
+                    <li>{% partial 'components/claims-card' %}</li>
+                    <li>{% partial 'components/claims-card' %}</li>
+                    <li>{% partial 'components/claims-card' %}</li>
+                </ul>
+                 
+            </div>
+        </div>
+    </div>
+</div>";s:4:"code";N;s:5:"title";s:6:"Claims";s:3:"url";s:7:"/claims";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";}}

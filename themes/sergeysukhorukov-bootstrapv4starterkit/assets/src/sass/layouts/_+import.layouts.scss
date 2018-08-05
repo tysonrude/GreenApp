@@ -1,0 +1,130 @@
+// ======================================================================== //
+// Import
+// ======================================================================== //
+
+.claims ul{
+    list-style-type: none;
+}
+
+.claims li {
+    margin-bottom: 30px;
+}
+
+.claim {
+    padding: 0;
+    box-shadow: 0 2px 8px 0 rgba(33,37,41,0.2);
+    border-radius: $border-radius-lg;
+    height: 190px;
+}
+
+.claim-left {
+    padding: 16px 8px;
+    width: 185px;
+    min-width: 185px;
+    height: 190px;
+    border-right: solid 1px $gray-200; 
+    border-radius: $border-radius-lg 0px 0px $border-radius-lg;
+}
+
+.claim-right {
+    padding: 16px;
+    height: 158px;
+    width: 85%;
+}
+
+.claim-go {
+    font-size: 32px;
+    text-align: right;
+    float: right;
+    top: -95px;
+    position: relative;
+    right: 32px;
+    color: $gray-500;
+}
+
+.claim-right .card-subtitle {
+    bottom: -20px;
+    position: relative;
+    font-size: 12px;
+    font-weight: 500;
+    color: $gray-600;
+}
+
+.info {
+    border-bottom: solid 1px $gray-400;
+    padding-left: 16px;
+}
+
+
+.info-last {
+    padding-left: 16px;
+}
+
+.info-last h6 {
+    color: $gray-600;
+    margin-top: 4px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 0px;
+}
+
+.claim-right-bottom {
+    background-color: $gray-100;
+    height: 32px;
+    padding: 4px 16px;
+    border-radius: 0px 0px $border-radius-lg 0px;
+    border-top: solid $gray-200 1px;
+}
+
+.claim-right-bottom p {
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 20px;
+}
+
+.date-section {
+    height: 40px;
+    margin-left: 2px;
+  }
+  
+  span.dates {
+    display: inline-block;
+  }
+  
+  .date-range {
+    margin-right: 4px;
+    margin-top: 5px;
+  }
+  
+  .open {
+    height: 9px;
+    width: 9px;
+    background-color: $gray-200;
+    border: solid 3px $gray-600;
+    border-radius: 50%;
+  }
+  
+  .dot {
+    height: 9px;
+    width: 9px;
+    background-color: $gray-600;
+    border-radius: 50%;
+  }
+  
+  .line {
+    height: 14px;
+    width: 3px;
+    background-color: $gray-600;
+    margin: -1px auto;
+  }
+  
+  .range p {
+    height: 20px;
+    width: 86px;
+    color: $gray-600;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+    margin: 0px;
+  }
