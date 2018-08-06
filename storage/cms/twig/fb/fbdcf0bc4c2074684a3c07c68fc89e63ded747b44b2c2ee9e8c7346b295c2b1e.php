@@ -1,7 +1,7 @@
 <?php
 
-/* /Users/tysonrude/Sites/greenapp/themes/sergeysukhorukov-bootstrapv4starterkit/partials/components/claims-card.htm */
-class __TwigTemplate_a6d95fce50a4af8588de45c75a22a059b7987c1be830f42313b0508ed16c0dc2 extends Twig_Template
+/* /Users/tysonrude/Sites/greenapp/themes/sergeysukhorukov-bootstrapv4starterkit/partials/components/claims-card-approved.htm */
+class __TwigTemplate_dacc9a8334f6e7644d654c31951e5bfa20aef4561e8a691445d31ea9e2d7e7a6 extends Twig_Template
 {
     private $source;
 
@@ -31,22 +31,7 @@ class __TwigTemplate_a6d95fce50a4af8588de45c75a22a059b7987c1be830f42313b0508ed16
 
         <div class=\"py-2 info\">
             <div class=\"date-section\">
-
-                <span class=\"dates\">
-                    <div class=\"date-range\">
-                    <div class=\"open\"></div>
-                    <div class=\"line\"></div>
-                    <div class=\"dot\"></div>
-                    </div>
-                </span>
-            
-                <span class=\"dates\">
-                    <div class=\"range\">
-                    <p class=\"ml-1\">Apr 02, 2017</p>
-                    <p class=\"ml-1\">Mar 30, 2017</p>
-                    </div>
-                </span>
-            
+                <p class=\"py-2 mb-0\">Mar 28, 2017</p>
             </div>
         </div>
 
@@ -60,9 +45,9 @@ class __TwigTemplate_a6d95fce50a4af8588de45c75a22a059b7987c1be830f42313b0508ed16
     </div>
     <div class=\"claim-right p-0\">
         <div class=\"claim-content\">
-            <h4 class=\"card-title\">Marie's office visit</h4>
-            <p class=\"card-text\">SBenign neoplasm of connective and other soft tissue, unspecified</p>
-            <h6 class=\"card-subtitle mb-2\">Dr. Kenneth J Mulder</h6>
+            <h4 class=\"card-title\">Marie's prescription filled</h4>
+            <p class=\"card-text\">Atavaquone-proguanil H</p>
+            <h6 class=\"card-subtitle mb-2\">Walgreens Pharmacy</h6>
         </div>
         <div class=\"claim-go\">
             <i class=\"pe-is-i-angle-right p-0\"></i>
@@ -81,7 +66,7 @@ class __TwigTemplate_a6d95fce50a4af8588de45c75a22a059b7987c1be830f42313b0508ed16
 
     public function getTemplateName()
     {
-        return "/Users/tysonrude/Sites/greenapp/themes/sergeysukhorukov-bootstrapv4starterkit/partials/components/claims-card.htm";
+        return "/Users/tysonrude/Sites/greenapp/themes/sergeysukhorukov-bootstrapv4starterkit/partials/components/claims-card-approved.htm";
     }
 
     public function getDebugInfo()
@@ -102,22 +87,7 @@ class __TwigTemplate_a6d95fce50a4af8588de45c75a22a059b7987c1be830f42313b0508ed16
 
         <div class=\"py-2 info\">
             <div class=\"date-section\">
-
-                <span class=\"dates\">
-                    <div class=\"date-range\">
-                    <div class=\"open\"></div>
-                    <div class=\"line\"></div>
-                    <div class=\"dot\"></div>
-                    </div>
-                </span>
-            
-                <span class=\"dates\">
-                    <div class=\"range\">
-                    <p class=\"ml-1\">Apr 02, 2017</p>
-                    <p class=\"ml-1\">Mar 30, 2017</p>
-                    </div>
-                </span>
-            
+                <p class=\"py-2 mb-0\">Mar 28, 2017</p>
             </div>
         </div>
 
@@ -131,9 +101,9 @@ class __TwigTemplate_a6d95fce50a4af8588de45c75a22a059b7987c1be830f42313b0508ed16
     </div>
     <div class=\"claim-right p-0\">
         <div class=\"claim-content\">
-            <h4 class=\"card-title\">Marie's office visit</h4>
-            <p class=\"card-text\">SBenign neoplasm of connective and other soft tissue, unspecified</p>
-            <h6 class=\"card-subtitle mb-2\">Dr. Kenneth J Mulder</h6>
+            <h4 class=\"card-title\">Marie's prescription filled</h4>
+            <p class=\"card-text\">Atavaquone-proguanil H</p>
+            <h6 class=\"card-subtitle mb-2\">Walgreens Pharmacy</h6>
         </div>
         <div class=\"claim-go\">
             <i class=\"pe-is-i-angle-right p-0\"></i>
@@ -147,6 +117,6 @@ class __TwigTemplate_a6d95fce50a4af8588de45c75a22a059b7987c1be830f42313b0508ed16
         </div>
     </div>
     
-</div>", "/Users/tysonrude/Sites/greenapp/themes/sergeysukhorukov-bootstrapv4starterkit/partials/components/claims-card.htm", "");
+</div>", "/Users/tysonrude/Sites/greenapp/themes/sergeysukhorukov-bootstrapv4starterkit/partials/components/claims-card-approved.htm", "");
     }
 }

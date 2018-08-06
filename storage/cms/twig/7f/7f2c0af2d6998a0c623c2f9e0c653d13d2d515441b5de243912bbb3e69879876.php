@@ -1,7 +1,7 @@
 <?php
 
-/* /Users/tysonrude/Sites/greenapp/themes/sergeysukhorukov-bootstrapv4starterkit/partials/components/claims-card.htm */
-class __TwigTemplate_a6d95fce50a4af8588de45c75a22a059b7987c1be830f42313b0508ed16c0dc2 extends Twig_Template
+/* /Users/tysonrude/Sites/greenapp/themes/sergeysukhorukov-bootstrapv4starterkit/partials/components/claims-card-processing.htm */
+class __TwigTemplate_34a6166e95b3c6baea5365656d8142a5f6da2f4e6aa84f22b0fdd98815e99c06 extends Twig_Template
 {
     private $source;
 
@@ -24,8 +24,8 @@ class __TwigTemplate_a6d95fce50a4af8588de45c75a22a059b7987c1be830f42313b0508ed16
     <div class=\"bg-light claim-left\">
         <div class=\"py-1 info\">
             <div class=\"d-flex flex-row\">
-                <i class=\"pe-is-i-check-circle-f text-success p-0\"></i>
-                <p class=\"ml-2\">Approved</p>
+                <i class=\"o-time-2 text-secondary p-0\"></i>
+                <p class=\"ml-2\">Processing</p>
             </div>
         </div>
 
@@ -81,7 +81,7 @@ class __TwigTemplate_a6d95fce50a4af8588de45c75a22a059b7987c1be830f42313b0508ed16
 
     public function getTemplateName()
     {
-        return "/Users/tysonrude/Sites/greenapp/themes/sergeysukhorukov-bootstrapv4starterkit/partials/components/claims-card.htm";
+        return "/Users/tysonrude/Sites/greenapp/themes/sergeysukhorukov-bootstrapv4starterkit/partials/components/claims-card-processing.htm";
     }
 
     public function getDebugInfo()
@@ -95,8 +95,8 @@ class __TwigTemplate_a6d95fce50a4af8588de45c75a22a059b7987c1be830f42313b0508ed16
     <div class=\"bg-light claim-left\">
         <div class=\"py-1 info\">
             <div class=\"d-flex flex-row\">
-                <i class=\"pe-is-i-check-circle-f text-success p-0\"></i>
-                <p class=\"ml-2\">Approved</p>
+                <i class=\"o-time-2 text-secondary p-0\"></i>
+                <p class=\"ml-2\">Processing</p>
             </div>
         </div>
 
@@ -147,6 +147,6 @@ class __TwigTemplate_a6d95fce50a4af8588de45c75a22a059b7987c1be830f42313b0508ed16
         </div>
     </div>
     
-</div>", "/Users/tysonrude/Sites/greenapp/themes/sergeysukhorukov-bootstrapv4starterkit/partials/components/claims-card.htm", "");
+</div>", "/Users/tysonrude/Sites/greenapp/themes/sergeysukhorukov-bootstrapv4starterkit/partials/components/claims-card-processing.htm", "");
     }
 }

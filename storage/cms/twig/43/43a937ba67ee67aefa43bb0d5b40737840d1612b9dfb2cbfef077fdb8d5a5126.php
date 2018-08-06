@@ -24,32 +24,36 @@ class __TwigTemplate_88bb8d1961d3c205f7d5a49c46d49a382d104fb0ba1e44e1303387d6281
     <div class=\"container mt-5\">
         <div class=\"row justify-content-center\">
             <div class=\"col-md-3\">
-             
+                <ul class=\"nav flex-column\">
+                    <h4>Filter results</h4>
+                    <p class=\"font-weight-bold mt-3\">Service date range</p>
+                    
+                </ul>
             </div>
             <div class=\"claims col-9\">
                 <ul>
                     <li>";
-        // line 9
+        // line 13
         $context['__cms_partial_params'] = [];
-        echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("components/claims-card"        , $context['__cms_partial_params']        , true        );
+        echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("components/claims-card-processing"        , $context['__cms_partial_params']        , true        );
         unset($context['__cms_partial_params']);
         echo "</li>
                     <li>";
-        // line 10
+        // line 14
         $context['__cms_partial_params'] = [];
-        echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("components/claims-card"        , $context['__cms_partial_params']        , true        );
+        echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("components/claims-card-denied"        , $context['__cms_partial_params']        , true        );
         unset($context['__cms_partial_params']);
         echo "</li>
                     <li>";
-        // line 11
+        // line 15
         $context['__cms_partial_params'] = [];
-        echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("components/claims-card"        , $context['__cms_partial_params']        , true        );
+        echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("components/claims-card-info"        , $context['__cms_partial_params']        , true        );
         unset($context['__cms_partial_params']);
         echo "</li>
                     <li>";
-        // line 12
+        // line 16
         $context['__cms_partial_params'] = [];
-        echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("components/claims-card"        , $context['__cms_partial_params']        , true        );
+        echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("components/claims-card-approved"        , $context['__cms_partial_params']        , true        );
         unset($context['__cms_partial_params']);
         echo "</li>
                 </ul>
@@ -72,7 +76,7 @@ class __TwigTemplate_88bb8d1961d3c205f7d5a49c46d49a382d104fb0ba1e44e1303387d6281
 
     public function getDebugInfo()
     {
-        return array (  51 => 12,  45 => 11,  39 => 10,  33 => 9,  23 => 1,);
+        return array (  55 => 16,  49 => 15,  43 => 14,  37 => 13,  23 => 1,);
     }
 
     public function getSourceContext()
@@ -81,14 +85,18 @@ class __TwigTemplate_88bb8d1961d3c205f7d5a49c46d49a382d104fb0ba1e44e1303387d6281
     <div class=\"container mt-5\">
         <div class=\"row justify-content-center\">
             <div class=\"col-md-3\">
-             
+                <ul class=\"nav flex-column\">
+                    <h4>Filter results</h4>
+                    <p class=\"font-weight-bold mt-3\">Service date range</p>
+                    
+                </ul>
             </div>
             <div class=\"claims col-9\">
                 <ul>
-                    <li>{% partial 'components/claims-card' %}</li>
-                    <li>{% partial 'components/claims-card' %}</li>
-                    <li>{% partial 'components/claims-card' %}</li>
-                    <li>{% partial 'components/claims-card' %}</li>
+                    <li>{% partial 'components/claims-card-processing' %}</li>
+                    <li>{% partial 'components/claims-card-denied' %}</li>
+                    <li>{% partial 'components/claims-card-info' %}</li>
+                    <li>{% partial 'components/claims-card-approved' %}</li>
                 </ul>
                  
             </div>

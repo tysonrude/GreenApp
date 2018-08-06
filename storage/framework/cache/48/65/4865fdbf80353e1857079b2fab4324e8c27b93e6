@@ -1,0 +1,84 @@
+1533582684a:1:{s:35:"components/claims-card-approved.htm";a:6:{s:8:"fileName";s:35:"components/claims-card-approved.htm";s:7:"content";s:1345:"==
+<div class="d-flex flex-row claim">
+    <div class="bg-light claim-left">
+        <div class="py-1 info">
+            <div class="d-flex flex-row">
+                <i class="pe-is-i-check-circle-f text-success p-0"></i>
+                <p class="ml-2">Approved</p>
+            </div>
+        </div>
+
+        <div class="py-2 info">
+            <div class="date-section">
+                <p class="py-2 mb-0">Mar 28, 2017</p>
+            </div>
+        </div>
+
+        <div class="py-3 info-last">
+            
+                <h6>You may owe</h6>
+                <p>$45.00</p>
+    
+        </div>
+
+    </div>
+    <div class="claim-right p-0">
+        <div class="claim-content">
+            <h4 class="card-title">Marie's prescription filled</h4>
+            <p class="card-text">Atavaquone-proguanil H</p>
+            <h6 class="card-subtitle mb-2">Walgreens Pharmacy</h6>
+        </div>
+        <div class="claim-go">
+            <i class="pe-is-i-angle-right p-0"></i>
+        </div>
+      
+        <div class="claim-right-bottom">
+                <div class="d-flex flex-row">
+                        <i class="pe-is-i-download-square text-secondary p-0"></i>
+                        <p class="ml-2 text-secondary">Download EOB</p>
+                    </div>
+        </div>
+    </div>
+    
+</div>";s:5:"mtime";i:1533568118;s:6:"markup";s:1341:"<div class="d-flex flex-row claim">
+    <div class="bg-light claim-left">
+        <div class="py-1 info">
+            <div class="d-flex flex-row">
+                <i class="pe-is-i-check-circle-f text-success p-0"></i>
+                <p class="ml-2">Approved</p>
+            </div>
+        </div>
+
+        <div class="py-2 info">
+            <div class="date-section">
+                <p class="py-2 mb-0">Mar 28, 2017</p>
+            </div>
+        </div>
+
+        <div class="py-3 info-last">
+            
+                <h6>You may owe</h6>
+                <p>$45.00</p>
+    
+        </div>
+
+    </div>
+    <div class="claim-right p-0">
+        <div class="claim-content">
+            <h4 class="card-title">Marie's prescription filled</h4>
+            <p class="card-text">Atavaquone-proguanil H</p>
+            <h6 class="card-subtitle mb-2">Walgreens Pharmacy</h6>
+        </div>
+        <div class="claim-go">
+            <i class="pe-is-i-angle-right p-0"></i>
+        </div>
+      
+        <div class="claim-right-bottom">
+                <div class="d-flex flex-row">
+                        <i class="pe-is-i-download-square text-secondary p-0"></i>
+                        <p class="ml-2 text-secondary">Download EOB</p>
+                    </div>
+        </div>
+    </div>
+    
+</div>";s:4:"code";N;s:17:"_PARSER_ERROR_INI";s:0:"";}}

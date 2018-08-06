@@ -1,7 +1,7 @@
 <?php
 
-/* /Users/tysonrude/Sites/greenapp/themes/sergeysukhorukov-bootstrapv4starterkit/partials/components/claims-card.htm */
-class __TwigTemplate_a6d95fce50a4af8588de45c75a22a059b7987c1be830f42313b0508ed16c0dc2 extends Twig_Template
+/* /Users/tysonrude/Sites/greenapp/themes/sergeysukhorukov-bootstrapv4starterkit/partials/components/claims-card-denied.htm */
+class __TwigTemplate_f6eaefed063e123fc3d8ff5847d95f23c6350eea6efc1e4d6841fb179163a72d extends Twig_Template
 {
     private $source;
 
@@ -24,45 +24,30 @@ class __TwigTemplate_a6d95fce50a4af8588de45c75a22a059b7987c1be830f42313b0508ed16
     <div class=\"bg-light claim-left\">
         <div class=\"py-1 info\">
             <div class=\"d-flex flex-row\">
-                <i class=\"pe-is-i-check-circle-f text-success p-0\"></i>
-                <p class=\"ml-2\">Approved</p>
+                <i class=\"pe-is-i-ban text-danger font-weight-bold p-0\"></i>
+                <p class=\"ml-2\">Denied</p>
             </div>
         </div>
 
         <div class=\"py-2 info\">
             <div class=\"date-section\">
-
-                <span class=\"dates\">
-                    <div class=\"date-range\">
-                    <div class=\"open\"></div>
-                    <div class=\"line\"></div>
-                    <div class=\"dot\"></div>
-                    </div>
-                </span>
-            
-                <span class=\"dates\">
-                    <div class=\"range\">
-                    <p class=\"ml-1\">Apr 02, 2017</p>
-                    <p class=\"ml-1\">Mar 30, 2017</p>
-                    </div>
-                </span>
-            
+                <p class=\"py-2 mb-0\">Mar 28, 2017</p>
             </div>
         </div>
 
         <div class=\"py-3 info-last\">
             
                 <h6>You may owe</h6>
-                <p>\$45.00</p>
+                <p>\$12,054.98</p>
     
         </div>
 
     </div>
     <div class=\"claim-right p-0\">
         <div class=\"claim-content\">
-            <h4 class=\"card-title\">Marie's office visit</h4>
-            <p class=\"card-text\">SBenign neoplasm of connective and other soft tissue, unspecified</p>
-            <h6 class=\"card-subtitle mb-2\">Dr. Kenneth J Mulder</h6>
+            <h4 class=\"card-title\">Joann's office visit</h4>
+            <p class=\"card-text\">Inflammatory conditions of the jaws</p>
+            <h6 class=\"align-text-bottom mb-2\">Dr. Kenneth J Mulder</h6>
         </div>
         <div class=\"claim-go\">
             <i class=\"pe-is-i-angle-right p-0\"></i>
@@ -81,7 +66,7 @@ class __TwigTemplate_a6d95fce50a4af8588de45c75a22a059b7987c1be830f42313b0508ed16
 
     public function getTemplateName()
     {
-        return "/Users/tysonrude/Sites/greenapp/themes/sergeysukhorukov-bootstrapv4starterkit/partials/components/claims-card.htm";
+        return "/Users/tysonrude/Sites/greenapp/themes/sergeysukhorukov-bootstrapv4starterkit/partials/components/claims-card-denied.htm";
     }
 
     public function getDebugInfo()
@@ -95,45 +80,30 @@ class __TwigTemplate_a6d95fce50a4af8588de45c75a22a059b7987c1be830f42313b0508ed16
     <div class=\"bg-light claim-left\">
         <div class=\"py-1 info\">
             <div class=\"d-flex flex-row\">
-                <i class=\"pe-is-i-check-circle-f text-success p-0\"></i>
-                <p class=\"ml-2\">Approved</p>
+                <i class=\"pe-is-i-ban text-danger font-weight-bold p-0\"></i>
+                <p class=\"ml-2\">Denied</p>
             </div>
         </div>
 
         <div class=\"py-2 info\">
             <div class=\"date-section\">
-
-                <span class=\"dates\">
-                    <div class=\"date-range\">
-                    <div class=\"open\"></div>
-                    <div class=\"line\"></div>
-                    <div class=\"dot\"></div>
-                    </div>
-                </span>
-            
-                <span class=\"dates\">
-                    <div class=\"range\">
-                    <p class=\"ml-1\">Apr 02, 2017</p>
-                    <p class=\"ml-1\">Mar 30, 2017</p>
-                    </div>
-                </span>
-            
+                <p class=\"py-2 mb-0\">Mar 28, 2017</p>
             </div>
         </div>
 
         <div class=\"py-3 info-last\">
             
                 <h6>You may owe</h6>
-                <p>\$45.00</p>
+                <p>\$12,054.98</p>
     
         </div>
 
     </div>
     <div class=\"claim-right p-0\">
         <div class=\"claim-content\">
-            <h4 class=\"card-title\">Marie's office visit</h4>
-            <p class=\"card-text\">SBenign neoplasm of connective and other soft tissue, unspecified</p>
-            <h6 class=\"card-subtitle mb-2\">Dr. Kenneth J Mulder</h6>
+            <h4 class=\"card-title\">Joann's office visit</h4>
+            <p class=\"card-text\">Inflammatory conditions of the jaws</p>
+            <h6 class=\"align-text-bottom mb-2\">Dr. Kenneth J Mulder</h6>
         </div>
         <div class=\"claim-go\">
             <i class=\"pe-is-i-angle-right p-0\"></i>
@@ -147,6 +117,6 @@ class __TwigTemplate_a6d95fce50a4af8588de45c75a22a059b7987c1be830f42313b0508ed16
         </div>
     </div>
     
-</div>", "/Users/tysonrude/Sites/greenapp/themes/sergeysukhorukov-bootstrapv4starterkit/partials/components/claims-card.htm", "");
+</div>", "/Users/tysonrude/Sites/greenapp/themes/sergeysukhorukov-bootstrapv4starterkit/partials/components/claims-card-denied.htm", "");
     }
 }

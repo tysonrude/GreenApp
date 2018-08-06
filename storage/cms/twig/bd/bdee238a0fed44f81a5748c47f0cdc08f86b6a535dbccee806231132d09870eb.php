@@ -76,11 +76,23 @@ class __TwigTemplate_d5dca07aca91f660833b2b2e151217a571e2c2422d3aaaf3b16e1c8002a
         // line 20
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/src/fonts/pe-icon-set-interface/css/helper.css");
         echo "\" rel=\"stylesheet\">
-        ";
+        <link href=\"";
         // line 21
+        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/src/fonts/pe-icon-set-edition/css/pe-icon-set-edition.css");
+        echo "\" rel=\"stylesheet\">
+        <link href=\"";
+        // line 22
+        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/src/fonts/pe-icon-set-edition/css/helper.css");
+        echo "\" rel=\"stylesheet\">
+        <link href=\"";
+        // line 23
+        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/src/fonts/time-icon-font/iconfont.css");
+        echo "\" rel=\"stylesheet\">
+        ";
+        // line 24
         echo $this->env->getExtension('Cms\Twig\Extension')->assetsFunction('css');
         echo $this->env->getExtension('Cms\Twig\Extension')->displayBlock('styles');
-        // line 22
+        // line 25
         echo "        <title>";
         if (twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "page", array()), "title", array())) {
             echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "page", array()), "title", array()), "html", null, true);
@@ -92,53 +104,53 @@ class __TwigTemplate_d5dca07aca91f660833b2b2e151217a571e2c2422d3aaaf3b16e1c8002a
         echo "</title>
     </head>
     <body class=\"layout-";
-        // line 24
+        // line 27
         echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "layout", array()), "id", array()), "html", null, true);
         echo " page-";
         echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "page", array()), "id", array()), "html", null, true);
         echo "\">
         <div id=\"site-header\" class=\"site-header\">
             ";
-        // line 26
+        // line 29
         $context['__cms_partial_params'] = [];
         echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("site/header"        , $context['__cms_partial_params']        , true        );
         unset($context['__cms_partial_params']);
-        // line 27
+        // line 30
         echo "        </div>
         <div id=\"site-content\" class=\"site-content\">
             ";
-        // line 29
+        // line 32
         $context['__cms_partial_params'] = [];
         echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("site/content"        , $context['__cms_partial_params']        , true        );
         unset($context['__cms_partial_params']);
-        // line 30
+        // line 33
         echo "        </div>
         <div id=\"site-footer\" class=\"site-footer\">
             ";
-        // line 32
+        // line 35
         $context['__cms_partial_params'] = [];
         echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("site/footer"        , $context['__cms_partial_params']        , true        );
         unset($context['__cms_partial_params']);
-        // line 33
+        // line 36
         echo "        </div>
 
         <script src=\"";
-        // line 35
+        // line 38
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/dist/js/app.js");
         echo "\"></script>
         ";
-        // line 36
+        // line 39
         echo '<script src="'. Request::getBasePath()
                 .'/modules/system/assets/js/framework.js"></script>'.PHP_EOL;
         echo '<script src="'. Request::getBasePath()
                     .'/modules/system/assets/js/framework.extras.js"></script>'.PHP_EOL;
         echo '<link rel="stylesheet" property="stylesheet" href="'. Request::getBasePath()
                     .'/modules/system/assets/css/framework.extras.css">'.PHP_EOL;
-        // line 37
+        // line 40
         echo "        ";
         echo $this->env->getExtension('Cms\Twig\Extension')->assetsFunction('js');
         echo $this->env->getExtension('Cms\Twig\Extension')->displayBlock('scripts');
-        // line 38
+        // line 41
         echo "    </body>
 
 </html>";
@@ -156,7 +168,7 @@ class __TwigTemplate_d5dca07aca91f660833b2b2e151217a571e2c2422d3aaaf3b16e1c8002a
 
     public function getDebugInfo()
     {
-        return array (  142 => 38,  138 => 37,  131 => 36,  127 => 35,  123 => 33,  119 => 32,  115 => 30,  111 => 29,  107 => 27,  103 => 26,  96 => 24,  84 => 22,  81 => 21,  77 => 20,  73 => 19,  69 => 18,  63 => 15,  54 => 9,  46 => 8,  38 => 7,  30 => 6,  23 => 1,);
+        return array (  154 => 41,  150 => 40,  143 => 39,  139 => 38,  135 => 36,  131 => 35,  127 => 33,  123 => 32,  119 => 30,  115 => 29,  108 => 27,  96 => 25,  93 => 24,  89 => 23,  85 => 22,  81 => 21,  77 => 20,  73 => 19,  69 => 18,  63 => 15,  54 => 9,  46 => 8,  38 => 7,  30 => 6,  23 => 1,);
     }
 
     public function getSourceContext()
@@ -181,6 +193,9 @@ class __TwigTemplate_d5dca07aca91f660833b2b2e151217a571e2c2422d3aaaf3b16e1c8002a
         <link href=\"{{ 'assets/dist/css/app.css'|theme }}\" rel=\"stylesheet\">
         <link href=\"{{ 'assets/src/fonts/pe-icon-set-interface/css/pe-icon-set-interface.css'|theme }}\" rel=\"stylesheet\">
         <link href=\"{{ 'assets/src/fonts/pe-icon-set-interface/css/helper.css'|theme }}\" rel=\"stylesheet\">
+        <link href=\"{{ 'assets/src/fonts/pe-icon-set-edition/css/pe-icon-set-edition.css'|theme }}\" rel=\"stylesheet\">
+        <link href=\"{{ 'assets/src/fonts/pe-icon-set-edition/css/helper.css'|theme }}\" rel=\"stylesheet\">
+        <link href=\"{{ 'assets/src/fonts/time-icon-font/iconfont.css'|theme }}\" rel=\"stylesheet\">
         {% styles %}
         <title>{% if this.page.title %}{{ this.page.title }}{% else %}{{ this.theme.meta_title }}{% endif %} - {{ this.theme.website_name }}</title>
     </head>

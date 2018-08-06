@@ -1,0 +1,84 @@
+1533583276a:1:{s:33:"components/claims-card-denied.htm";a:6:{s:8:"fileName";s:33:"components/claims-card-denied.htm";s:7:"content";s:1364:"==
+<div class="d-flex flex-row claim">
+    <div class="bg-light claim-left">
+        <div class="py-1 info">
+            <div class="d-flex flex-row">
+                <i class="pe-is-i-ban text-danger font-weight-bold p-0"></i>
+                <p class="ml-2">Denied</p>
+            </div>
+        </div>
+
+        <div class="py-2 info">
+            <div class="date-section">
+                <p class="py-2 mb-0">Mar 28, 2017</p>
+            </div>
+        </div>
+
+        <div class="py-3 info-last">
+            
+                <h6>You may owe</h6>
+                <p>$12,054.98</p>
+    
+        </div>
+
+    </div>
+    <div class="claim-right p-0">
+        <div class="claim-content">
+            <h4 class="card-title">Joann's office visit</h4>
+            <p class="card-text">Inflammatory conditions of the jaws</p>
+            <h6 class="align-text-bottom mb-2">Dr. Kenneth J Mulder</h6>
+        </div>
+        <div class="claim-go">
+            <i class="pe-is-i-angle-right p-0"></i>
+        </div>
+      
+        <div class="claim-right-bottom">
+                <div class="d-flex flex-row">
+                        <i class="pe-is-i-download-square text-secondary p-0"></i>
+                        <p class="ml-2 text-secondary">Download EOB</p>
+                    </div>
+        </div>
+    </div>
+    
+</div>";s:5:"mtime";i:1533581974;s:6:"markup";s:1360:"<div class="d-flex flex-row claim">
+    <div class="bg-light claim-left">
+        <div class="py-1 info">
+            <div class="d-flex flex-row">
+                <i class="pe-is-i-ban text-danger font-weight-bold p-0"></i>
+                <p class="ml-2">Denied</p>
+            </div>
+        </div>
+
+        <div class="py-2 info">
+            <div class="date-section">
+                <p class="py-2 mb-0">Mar 28, 2017</p>
+            </div>
+        </div>
+
+        <div class="py-3 info-last">
+            
+                <h6>You may owe</h6>
+                <p>$12,054.98</p>
+    
+        </div>
+
+    </div>
+    <div class="claim-right p-0">
+        <div class="claim-content">
+            <h4 class="card-title">Joann's office visit</h4>
+            <p class="card-text">Inflammatory conditions of the jaws</p>
+            <h6 class="align-text-bottom mb-2">Dr. Kenneth J Mulder</h6>
+        </div>
+        <div class="claim-go">
+            <i class="pe-is-i-angle-right p-0"></i>
+        </div>
+      
+        <div class="claim-right-bottom">
+                <div class="d-flex flex-row">
+                        <i class="pe-is-i-download-square text-secondary p-0"></i>
+                        <p class="ml-2 text-secondary">Download EOB</p>
+                    </div>
+        </div>
+    </div>
+    
+</div>";s:4:"code";N;s:17:"_PARSER_ERROR_INI";s:0:"";}}
